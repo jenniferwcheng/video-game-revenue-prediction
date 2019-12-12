@@ -435,7 +435,7 @@ f1_array_val = np.zeros(10)
 
 for i in range(0,10):
   j = (i+1)*10
-  mlp = MLPClassifier(hidden_layer_sizes=(j, j, j, j),max_iter=1000)
+  mlp = MLPClassifier(hidden_layer_sizes=(j, j, j, j, j),max_iter=1000)
   mlp.fit(X_train,y_train)
 
   # training set
